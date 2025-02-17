@@ -1,0 +1,111 @@
+<!-- 
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Celebration of shivansh </title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro img {
+    max-width: 100%;                                                                                                                                           height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px;
+    border: none;                                                                                                                                                 border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e55c4d;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Happy Birthday!</h1>
+    </header>
+    <main>
+        <section class="intro">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvRAURx9d8R04jR1mr_l2lRzYiKFdFmasMDw&s" alt="Birthday Celebration">
+            <p>Welcome to the birthday celebration page! Leave your birthday wishes below:</p>
+        </section>
+        <section class="form-section">
+            <form id="birthdayForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section class="messages">
+            <h2>Birthday Messages</h2>
+            <ul id="messageList"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 shivansh Birthday Celebration</p>
+    </footer>
+    <script src="index.js"></script>                                                                                                           </body>
+</html>
